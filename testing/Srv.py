@@ -7,7 +7,7 @@ from rpc.Server import Server
 
 def do_job(message):
     time.sleep(5)
-    print(f"SERVER: Doing shit with received stuff: {message}")
+    print(f"SERVER: Doing work with received stuff: {message}")
     return "SERVER: Finished doing your stuff :)"
 
 
